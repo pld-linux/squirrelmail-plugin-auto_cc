@@ -1,7 +1,7 @@
 %define		_plugin	auto_cc
 %define		mversion	1.2
 Summary:	Auto CC/BCC plugin for squirrelmail
-Summary(pl.UTF-8):   Wtyczka pozwalająca ustawić automatyczne wysyłanie CC/BCC
+Summary(pl.UTF-8):	Wtyczka pozwalająca ustawić automatyczne wysyłanie CC/BCC
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.0
 Release:	1
