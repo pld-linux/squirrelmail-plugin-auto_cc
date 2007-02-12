@@ -1,7 +1,7 @@
 %define		_plugin	auto_cc
 %define		mversion	1.2
 Summary:	Auto CC/BCC plugin for squirrelmail
-Summary(pl):	Wtyczka pozwalaj±ca ustawiæ automatyczne wysy³anie CC/BCC
+Summary(pl.UTF-8):   Wtyczka pozwalajÄ…ca ustawiÄ‡ automatyczne wysyÅ‚anie CC/BCC
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.0
 Release:	1
@@ -21,9 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This plugin allows users to specify a default list of CC and/or BCC
 addresses that should be included on every email sent.
 
-%description -l pl
-Wtyczka pozwalaj±ca u¿ytkownikom na stworzenie listy adresów CC i/lub
-BCC, które bêd± automatycznie do³±czane do ka¿dego wys³anego maila.
+%description -l pl.UTF-8
+Wtyczka pozwalajÄ…ca uÅ¼ytkownikom na stworzenie listy adresÃ³w CC i/lub
+BCC, ktÃ³re bÄ™dÄ… automatycznie doÅ‚Ä…czane do kaÅ¼dego wysÅ‚anego maila.
 
 %prep
 %setup -q -n %{_plugin}
